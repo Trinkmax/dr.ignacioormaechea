@@ -104,10 +104,13 @@ export default function Hero() {
           className="flex items-center gap-3 mb-8"
         >
           <div className="w-12 h-px bg-midnight/40" />
-          <span className="eyebrow text-bronze">Cirugía Plástica &amp; Estética</span>
+          <p className="eyebrow text-bronze">
+            <span className="sr-only">Dr. Ignacio Ormaechea, cirujano plástico en Santiago del Estero, Argentina — </span>
+            Cirugía Plástica &amp; Estética
+          </p>
         </motion.div>
 
-        <h1 className="h-display text-midnight text-[16vw] sm:text-[13vw] md:text-[9.5vw] leading-[0.9] max-w-[1200px]">
+        <h1 aria-label="Dr. Ignacio Ormaechea · Cirujano Plástico · La belleza como forma de arte" className="h-display text-midnight text-[16vw] sm:text-[13vw] md:text-[9.5vw] leading-[0.9] max-w-[1200px]">
           {"La belleza".split("").map((c, i) => (
             <motion.span
               key={`l1-${i}`}
