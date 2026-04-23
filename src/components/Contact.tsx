@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { MessageCircle, Instagram, MapPin, Phone, Clock } from "lucide-react";
 import { DOCTOR, WHATSAPP_LINK } from "@/lib/data";
